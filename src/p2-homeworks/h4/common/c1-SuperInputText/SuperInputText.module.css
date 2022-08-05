@@ -5,8 +5,11 @@
 .errorInput {
     border: 3px solid lime;
     background: red;
+    border: 2px solid aqua;
 }
 
 .error {
     color: red;
+    height: 21px;
+    margin-left: 10px;
 }

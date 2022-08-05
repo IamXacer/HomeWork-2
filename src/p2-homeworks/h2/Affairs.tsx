@@ -5,7 +5,7 @@ import {AffairType, FilterType} from './HW2'
 export type AffairsPropsType = { // need to fix any
     data: AffairType[]
     setFilter: (filter:FilterType)=>void
-    deleteAffairCallback: (id:number)=>void
+    deleteAffairCallback: (_id: number)=>void
     filter:FilterType
 }
 
