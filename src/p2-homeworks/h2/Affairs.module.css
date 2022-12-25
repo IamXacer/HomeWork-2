@@ -1,3 +1,78 @@
-.someClass {
+.item {
+    margin: 5px;
+    width: 2001px;
+}
+.affair {
+    display: flex;
 
+
+}
+.button{
+    height: 35px;
+    margin: 20px;
+    width: 55px;
+    padding: 10px;
+    cursor: pointer;
+
+
+
+    background: aqua;
+       outline: none;
+    display: flex;
+    justify-content: space-around;
+}
+.AllButton{
+    height: 30px;
+    width: 49px;
+    left: 70px;
+    top: 588px;
+    border-radius: 15px;
+    padding: 5px 15px 5px 15px;
+    color: cornflowerblue;
+
+}
+.LowButton{
+    height: 30px;
+    width: 60px;
+    left: 143px;
+    top: 588px;
+    border-radius: 15px;
+    padding: 5px 15px 5px 15px;
+    color: chartreuse;
+
+
+}
+.HigButton{
+    height: 30px;
+    width: 60px;
+    left: 143px;
+    top: 588px;
+    border-radius: 15px;
+    padding: 5px 15px 5px 15px;
+    color: red;
+
+
+}
+.MidleButton{
+    height: 30px;
+    width: 80px;
+    left: 316px;
+    top: 588px;
+    border-radius: 15px;
+    padding: 5px 15px 5px 15px;
+color:burlywood;
+
+
+}
+.FigmaB {
+    height: 40px;
+    width: 185px;
+    left: 70px;
+    top: 651px;
+    border-radius: 5px;
+
+}
+
+.active {
+    background:cadetblue;
 }

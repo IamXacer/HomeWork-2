@@ -8,6 +8,39 @@
 }
 
 .error {
-    border: 1px solid red;
 
+    border: 1px solid red;
+    color: red;
+    margin-left:10px;
+}
+
+.button {
+    margin: 10px;
+    width: 60px;
+    outline: none;
+    color: aquamarine;
+    background: cadetblue;
+}
+.input{
+    margin: 10px;
+   color: aquamarine;
+    background: cadetblue;
+
+}
+.input:focus {
+  outline: none;
+    border: aquamarine;
+}
+.errorInput {
+    margin: 10px;
+    background: cadetblue;
+    color: aquamarine;
+    border: 2px solid red;
+    outline: none;
+}
+.button:disabled{
+    color: aliceblue;
+}
+.count {
+    margin: 10px;
 }

@@ -20,23 +20,23 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({users, addUser
    const TrimName = e.currentTarget.value.trim()
      if(TrimName){
          setName(TrimName)
-         setError('')
+       error &&  setError('')
      }
      else {
          setName('')
-         setError('Title is Requarir')
+         setError('Title Is reQAuer')
      }
  }
+
     const addUser = () => {
-        addUserCallback(name)
-        alert(`Hello  ! ${name}!`) // need to fix
+       addUserCallback(name)
+        alert(`Helo !${name}`)
         setName('')
     }
-   const onEnter = (e:KeyboardEvent<HTMLInputElement>) => {
-     if(e.key ==='Enter'){
-         addUser()
-
-     }
+   const onEnter = (e: KeyboardEvent<HTMLInputElement>) =>{
+        if(e.key ==='Enter' && name){
+            addUser()
+        }
    }
 
     const totalUsers = users.length // need to fix
