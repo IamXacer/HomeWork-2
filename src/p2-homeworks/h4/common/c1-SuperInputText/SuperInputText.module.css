@@ -1,9 +1,20 @@
 .superInput {
 
 }
+.input:focus {
+    outline: none;
+    border: aqua;
+}
+
+.superInput {
+    margin: 10px;
+
+    background: #536544;
+    color: aqua;
+}
 
 .errorInput {
-    border: 3px solid lime;
+    margin: 10px;
     background: red;
     border: 2px solid aqua;
 }
