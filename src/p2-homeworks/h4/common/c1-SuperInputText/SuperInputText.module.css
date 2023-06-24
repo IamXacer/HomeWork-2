@@ -3,7 +3,9 @@
 }
 .input:focus {
     outline: none;
-    border: aqua;
+    border: #ffdd00;
+    border-radius: 190px;
+    color: #ffdd00;
 }
 
 .superInput {

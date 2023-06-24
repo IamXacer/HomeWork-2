@@ -13,13 +13,10 @@
     width: 55px;
     padding: 10px;
     cursor: pointer;
-
-
-
     background: aqua;
        outline: none;
-    display: flex;
-    justify-content: space-around;
+  /*  display: flex;
+    justify-content: space-around;*/
 }
 .AllButton{
     height: 30px;
@@ -75,4 +72,8 @@ color:burlywood;
 
 .active {
     background:cadetblue;
+}
+.affair{
+    padding-right: 90px;
+
 }

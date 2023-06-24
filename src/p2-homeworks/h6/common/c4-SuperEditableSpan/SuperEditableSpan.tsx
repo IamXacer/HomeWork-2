@@ -1,5 +1,6 @@
 import React, {DetailedHTMLProps, InputHTMLAttributes, HTMLAttributes, useState} from 'react'
 import SuperInputText from '../../../h4/common/c1-SuperInputText/SuperInputText'
+import s from "../../../h4/HW4.module.css";
 
 // тип пропсов обычного инпута
 type DefaultInputPropsType = DetailedHTMLProps<InputHTMLAttributes<HTMLInputElement>, HTMLInputElement>
@@ -32,7 +33,7 @@ const SuperEditableSpan: React.FC<SuperEditableSpanType> = (
     const {children, onDoubleClick, className, ...restSpanProps} = spanProps || {}
 
     const onEnterCallback = () => {
-         setEditMode(false) // выключить editMode при нажатии Enter
+        setEditMode(false) // выключить editMode при нажатии Enter
         onEnter && onEnter()}
 
     const onBlurCallback = (e: React.FocusEvent<HTMLInputElement>) => {
@@ -40,7 +41,7 @@ const SuperEditableSpan: React.FC<SuperEditableSpanType> = (
         onBlur && onBlur(e)}
 
     const onDoubleClickCallBack = (e: React.MouseEvent<HTMLSpanElement, MouseEvent>) => {
-        setEditMode(true) // включить editMode при двойном клике
+        setEditMode(true)// включить editMode при двойном клике
         onDoubleClick && onDoubleClick(e)}
 
     const spanClassName = `${'сделать красивый стиль для спана'} ${className}`

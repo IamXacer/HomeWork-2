@@ -41,7 +41,7 @@ function Affairs(props: AffairsPropsType) {
        return style.button + (props.filter ===filter ? ' ' + style.active : '')
     }
     return (
-        <div>
+        <div >
 
             {mappedAffairs}
 
